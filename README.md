@@ -19,7 +19,7 @@ Car rental application developed during <a href="https://www.rocketseat.com.br/i
 - [x] Must be able to register a new car.
 
 **BR**
-- [ ] Only an admin user should be able to register a car.
+- [x] Only an admin user should be able to register a car.
 - [x] Should not be able to register a new car with an existing license plate.
 - [x] The car must be registered as available by default.
 
