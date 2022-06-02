@@ -31,7 +31,7 @@ class Car {
   license_plate: string;
 
   @Column()
-  fine_amout: number;
+  fine_amount: number;
 
   @Column()
   brand: string;
