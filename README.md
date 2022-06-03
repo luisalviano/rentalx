@@ -28,13 +28,13 @@ Car rental application developed during <a href="https://www.rocketseat.com.br/i
 ### Car Listing
 
 **FR**
-- [ ] Must be able to list all available cars.
-- [ ] Must be able to list all available cars by category.
-- [ ] Must be able to list all available cars by brand.
-- [ ] Must be a ble to list all available cars by name.
+- [x] Must be able to list all available cars.
+- [x] Must be able to list all available cars by category.
+- [x] Must be able to list all available cars by brand.
+- [x] Must be a ble to list all available cars by name.
 
 **BR**
-- [ ] The user does not need to be authenticated.
+- [x] The user does not need to be authenticated.
 
 #
 
