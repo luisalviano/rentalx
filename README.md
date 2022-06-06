@@ -53,15 +53,14 @@ Car rental application developed during <a href="https://www.rocketseat.com.br/i
 ### Car Images Registration
 
 **RF**
-- [ ] Must be able to register a image of the car.
-- [ ] Must be able to list all cars.
+- [x] Must be able to register a image of the car.
 
 **NFR**
-- [ ] Use multer to upload images.
+- [x] Use multer to upload images.
 
 **BR**
-- [ ] Only an admin user should be able to register a car image.
-- [ ] User must be able to register more than one image of the same car.
+- [x] Only an admin user should be able to register a car image.
+- [x] User must be able to register more than one image of the same car.
 
 #
 
