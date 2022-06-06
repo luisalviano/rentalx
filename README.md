@@ -67,9 +67,10 @@ Car rental application developed during <a href="https://www.rocketseat.com.br/i
 ### Car Rental
 
 **RF**
-- [ ] Must be able to register a car rental.
+- [x] Must be able to register a car rental.
 
 **BR**
-- [ ] A rental must have minimum duration of 24 hours.
-- [ ] Should not be able to register a new rental if one is already open for the same user.
-- [ ] Should not be able to register a new rental if one is already open for the same car.
+- [x] A rental must have minimum duration of 24 hours.
+- [x] Should not be able to register a new rental if one is already open for the same user.
+- [x] Should not be able to register a new rental if one is already open for the same car.
+- [x] User must be authenticated.
