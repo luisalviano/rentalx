@@ -41,14 +41,12 @@ Car rental application developed during <a href="https://www.rocketseat.com.br/i
 ### Car Specification Registration
 
 **RF**
-- [ ] Must be able to register a car specification.
-- [ ] Must be able to list all specifications.
-- [ ] Must be able to list all cars.
+- [x] Must be able to register a car specification.
 
 **BR**
-- [ ] Only an admin user should be able to register a specification.
-- [ ] Should not be able to register a specification to a non-registered car.
-- [ ] Should not be able to register one specification to the same car more than once.
+- [x] Only an admin user should be able to register a specification.
+- [x] Should not be able to register a specification to a non-registered car.
+- [x] Should not be able to register one specification to the same car more than once.
 
 #
 
