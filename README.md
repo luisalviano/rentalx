@@ -31,7 +31,7 @@ Car rental application developed during <a href="https://www.rocketseat.com.br/i
 - [x] Must be able to list all available cars.
 - [x] Must be able to list all available cars by category.
 - [x] Must be able to list all available cars by brand.
-- [x] Must be a ble to list all available cars by name.
+- [x] Must be able to list all available cars by name.
 
 **BR**
 - [x] The user does not need to be authenticated.
@@ -40,7 +40,7 @@ Car rental application developed during <a href="https://www.rocketseat.com.br/i
 
 ### Car Specification Registration
 
-**RF**
+**FR**
 - [x] Must be able to register a car specification.
 
 **BR**
@@ -52,7 +52,7 @@ Car rental application developed during <a href="https://www.rocketseat.com.br/i
 
 ### Car Images Registration
 
-**RF**
+**FR**
 - [x] Must be able to register a image of the car.
 
 **NFR**
@@ -66,7 +66,7 @@ Car rental application developed during <a href="https://www.rocketseat.com.br/i
 
 ### Car Rental
 
-**RF**
+**FR**
 - [x] Must be able to register a car rental.
 
 **BR**
@@ -74,3 +74,19 @@ Car rental application developed during <a href="https://www.rocketseat.com.br/i
 - [x] Should not be able to register a new rental if one is already open for the same user.
 - [x] Should not be able to register a new rental if one is already open for the same car.
 - [x] User must be authenticated.
+- [ ] When rented, the car's status must be changed to unavailable.
+
+#
+
+### Car Return
+
+**FR**
+- [ ] Must be possible to return a car.
+
+**BR**
+- [ ] If the car is returned in less than 24 hours, the full daily rate must be charged.
+- [ ] When the car is returned, the car must be set as available for another rental.
+- [ ] When the car is returned, the user must be able to make another rental.
+- [ ] When the car is returned, the total rent must be calculated.
+- [ ] If the return time is longer than the expected return time, a fine must be charged. This fine should be proportional to the delayed time.
+- [ ] In case there is a fine, it should be added to the total rent.
