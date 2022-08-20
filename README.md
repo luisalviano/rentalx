@@ -74,7 +74,7 @@ Car rental application developed during <a href="https://www.rocketseat.com.br/i
 - [x] Should not be able to register a new rental if one is already open for the same user.
 - [x] Should not be able to register a new rental if one is already open for the same car.
 - [x] User must be authenticated.
-- [ ] When rented, the car's status must be changed to unavailable.
+- [x] When rented, the car's status must be changed to unavailable.
 
 #
 
