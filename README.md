@@ -90,3 +90,4 @@ Car rental application developed during <a href="https://www.rocketseat.com.br/i
 - [ ] When the car is returned, the total rent must be calculated.
 - [ ] If the return time is longer than the expected return time, a fine must be charged. This fine should be proportional to the delayed time.
 - [ ] In case there is a fine, it should be added to the total rent.
+- [ ] User must be authenticated.

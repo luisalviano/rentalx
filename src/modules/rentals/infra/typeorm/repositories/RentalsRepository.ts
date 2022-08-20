@@ -27,15 +27,23 @@ class RentalsRepository implements IRentalsRepository {
 
     return rental;
   }
+
   async findOpenRentalByCar(car_id: string): Promise<Rental> {
     const openRental = await this.repository.findOne({ car_id });
 
     return openRental;
   }
+
   async findOpenRentalByUser(user_id: string): Promise<Rental> {
     const openRental = await this.repository.findOne({ user_id });
 
     return openRental;
+  }
+
+  async findById(id: string): Promise<Rental> {
+    const rental = await this.repository.findOne(id);
+
+    return rental;
   }
 }
 
