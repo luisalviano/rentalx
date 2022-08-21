@@ -81,13 +81,21 @@ Car rental application developed during <a href="https://www.rocketseat.com.br/i
 ### Car Return
 
 **FR**
-- [ ] Must be possible to return a car.
+- [x] Must be possible to return a car.
 
 **BR**
-- [ ] If the car is returned in less than 24 hours, the full daily rate must be charged.
-- [ ] When the car is returned, the car must be set as available for another rental.
-- [ ] When the car is returned, the user must be able to make another rental.
-- [ ] When the car is returned, the total rent must be calculated.
-- [ ] If the return time is longer than the expected return time, a fine must be charged. This fine should be proportional to the delayed time.
-- [ ] In case there is a fine, it should be added to the total rent.
+- [x] If the car is returned in less than 24 hours, the full daily rate must be charged.
+- [x] When the car is returned, the car must be set as available for another rental.
+- [x] When the car is returned, the user must be able to make another rental.
+- [x] When the car is returned, the total rent must be calculated.
+- [x] If the return time is longer than the expected return time, a fine must be charged. This fine should be proportional to the delayed time.
+- [x] In case there is a fine, it should be added to the total rent.
+- [x] User must be authenticated.
+
+### Rental Listing by User
+
+**FR**
+- [ ] Must be able to list all rentals by user.
+
+**BR**
 - [ ] User must be authenticated.
