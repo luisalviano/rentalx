@@ -33,17 +33,17 @@ describe("Create Category", () => {
   });
 
   it("should not be able to create a new category with existing name", async () => {
+    const category = {
+      name: "Category for test",
+      description: "Test category description",
+    };
+
+    await createCategoryUseCase.execute({
+      name: category.name,
+      description: category.description,
+    });
+
     expect(async () => {
-      const category = {
-        name: "Test category",
-        description: "Test category description",
-      };
-
-      await createCategoryUseCase.execute({
-        name: category.name,
-        description: category.description,
-      });
-
       await createCategoryUseCase.execute({
         name: category.name,
         description: category.description,

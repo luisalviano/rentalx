@@ -27,22 +27,22 @@ describe("Create Car", () => {
   });
 
   it("should not be able to create a car with an existing license plate", async () => {
-    expect(async () => {
-      await createCarUseCase.execute({
-        name: "Car 1",
-        description: "Car description",
-        daily_rate: 100,
-        license_plate: "ABC-1234",
-        fine_amount: 60,
-        brand: "Car brand",
-        category_id: "category",
-      });
+    await createCarUseCase.execute({
+      name: "Car 1",
+      description: "Car description",
+      daily_rate: 100,
+      license_plate: "ABC-4321",
+      fine_amount: 60,
+      brand: "Car brand",
+      category_id: "category",
+    });
 
+    expect(async () => {
       await createCarUseCase.execute({
         name: "Car 2",
         description: "Car description",
         daily_rate: 100,
-        license_plate: "ABC-1234",
+        license_plate: "ABC-4321",
         fine_amount: 60,
         brand: "Car brand",
         category_id: "category",
