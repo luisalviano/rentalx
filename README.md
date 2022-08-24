@@ -95,7 +95,18 @@ Car rental application developed during <a href="https://www.rocketseat.com.br/i
 ### Rental Listing by User
 
 **FR**
-- [ ] Must be able to list all rentals by user.
+- [x] Must be able to list all rentals by user.
 
 **BR**
-- [ ] User must be authenticated.
+- [x] User must be authenticated.
+
+### Password Reset
+
+**FR**
+- [ ] User must be able to reset their password by informing their email.
+- [ ] User must receive an email with the steps to reset the password.
+- [ ] User must be able to set a new password.
+
+**BR**
+- [ ] User must inform a new password.
+- [ ] Link to reset password must expire in 3 hours.
