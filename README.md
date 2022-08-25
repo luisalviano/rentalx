@@ -92,6 +92,8 @@ Car rental application developed during <a href="https://www.rocketseat.com.br/i
 - [x] In case there is a fine, it should be added to the total rent.
 - [x] User must be authenticated.
 
+#
+
 ### Rental Listing by User
 
 **FR**
@@ -99,6 +101,8 @@ Car rental application developed during <a href="https://www.rocketseat.com.br/i
 
 **BR**
 - [x] User must be authenticated.
+
+#
 
 ### Password Reset
 
