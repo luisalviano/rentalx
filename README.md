@@ -107,10 +107,10 @@ Car rental application developed during <a href="https://www.rocketseat.com.br/i
 ### Password Reset
 
 **FR**
-- [ ] User must be able to reset their password by informing their email.
-- [ ] User must receive an email with the steps to reset the password.
-- [ ] User must be able to set a new password.
+- [x] User must be able to reset their password by informing their email.
+- [x] User must receive an email with the steps to reset the password.
+- [x] User must be able to set a new password.
 
 **BR**
-- [ ] User must inform a new password.
-- [ ] Link to reset password must expire in 3 hours.
+- [x] User must inform a new password.
+- [x] Link to reset password must expire in 3 hours.
